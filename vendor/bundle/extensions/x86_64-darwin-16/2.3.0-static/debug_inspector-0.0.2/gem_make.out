@@ -1,0 +1,15 @@
+current directory: /Users/itabashi_planet/PetsHuggy/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/itabashi_planet/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20161103-24400-187sp8k.rb extconf.rb
+creating Makefile
+
+current directory: /Users/itabashi_planet/PetsHuggy/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/itabashi_planet/PetsHuggy/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/itabashi_planet/PetsHuggy/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20161103-24400-19jtcsy
