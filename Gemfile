@@ -35,6 +35,15 @@ gem "paperclip", "~> 5.0.0"
 gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
 
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
+
+group :development, :test do
+	gem 'sqlite3'
+end
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
